@@ -7,7 +7,7 @@ var PORT = process.env.PORT || DEFAULT_PORT;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello World this is the BOT sdg and kill \n');
+  res.send('Hello World this is simple nodejs app \n');
 });
 
 app.listen(PORT)
